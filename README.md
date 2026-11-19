@@ -14,6 +14,6 @@ And for 2024:
 https://www.pro-football-reference.com/years/2024/scrimmage.htm
 
 ## Set Up
-To replicate results shown in the presentation, you can change the "ALG_TYPE" constant in main.py to be one of the three algorithms I showed in the presentation: RANDOM, WEIGHTED_RANK, TRAIN (for the gradient descent algorithm) or GREEDY. Ensure that it remains the Enumerable type that is declared in FRED.py, AlgorithmType.
+To replicate results shown in the presentation, you can change the "ALG_TYPE" constant in main.py to be one of the three algorithms I showed in the presentation: RANDOM, WEIGHTED_RANK, TRAIN (for the gradient descent algorithm) or GREEDY. Ensure that it remains the Enumerable type that is declared in FRED.py, AlgorithmType. There is one more Algorithm type, PREDETERMINED_WEIGHTS, but this is only intended for use with TRAIN's weights and does not have any way to input the weights yourself easily.
 
 To run the program, you simply can run main.py, and you should see the outputs in the console similarly formatted to how they were in the presentation and on my machine.
